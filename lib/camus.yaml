@@ -1,1 +1,67 @@
 included: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # STYLE
+    - directives_ordering
+    # Prefer a maximum line length of 80 characters https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#prefer-a-maximum-line-length-of-80-characters
+    # - lines_longer_than_80_chars # avoid flutter
+    - always_put_required_named_parameters_first
+
+    # DOCUMENTATION
+    - package_api_docs # prefer
+    - public_member_api_docs # prefer
+    #- comment_references # Unused because https://github.com/dart-lang/sdk/issues/36974
+
+    # USAGE
+    - prefer_relative_imports # prefer
+    - unnecessary_lambdas
+    #- unnecessary_getters # prefer # Disabled pending fix: https://github.com/dart-lang/linter/issues/23
+    #- prefer_expression_function_bodies # consider
+
+    - unnecessary_parenthesis
+    - unnecessary_statements
+    #- avoid_catches_without_on_clauses # avoid
+    #- avoid_catching_errors
+
+    # DESIGN
+    - use_to_and_as_if_applicable # prefer
+    - one_member_abstracts # avoid
+    # - avoid_classes_with_only_static_members # avoid
+    - prefer_mixin
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_foreach
+    - use_setters_to_change_properties
+    - avoid_setters_without_getters
+    - avoid_returning_null # avoid
+    - avoid_returning_this # avoid
+    - type_annotate_public_apis # prefer
+    - prefer_single_quotes
+
+    # - omit_local_variable_types # avoid
+    # - omit_local_variable_types # opposite of always_specify_types
+    - always_specify_types # flutter
+    # - avoid_types_on_closure_parameters # avoid
+    - avoid_private_typedef_functions # prefer
+    - avoid_positional_boolean_parameters # avoid
+    - avoid_equals_and_hash_code_on_mutable_classes # avoid
+    - sort_constructors_first
+    - sort_pub_dependencies
+    - sort_unnamed_constructors_first
+    - throw_in_finally
+    - always_declare_return_types
+    - always_put_control_body_on_new_line
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_unused_constructor_parameters
+    - avoid_void_async
+    - avoid_slow_async_io
+    - cancel_subscriptions
+    - flutter_style_todos
+    - prefer_asserts_in_initializer_lists
+    - prefer_if_elements_to_conditional_expressions
+    - test_types_in_equals
+    - avoid_field_initializers_in_const_classes
+    - no_adjacent_strings_in_list
+    - prefer_trailing_commas:
+       - break-on: 2
