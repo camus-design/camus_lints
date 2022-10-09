@@ -1,16 +1,18 @@
-# camus_lint
+# Camus lint rules
 
-A new Flutter project.
+This repository contains a set of lint rules for [Flutter] apps, packages,
+and plugins to encourage good coding practices..
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter application.
+1. Depend on this package as a **dev_dependency** by running
+  `flutter pub add --dev camus_lints`.
+2. Create an `analysis_options.yaml` file at the root of the package (alongside
+   the `pubspec.yaml` file) and `include: package:camus_lints/camus.yaml`
+   from it.
 
-A few resources to get you started if this is your first Flutter project:
+## Reference
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Effective Dart](https://dart.dev/guides/language/effective-dart/style)
+- [Flutter Style Guide](https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo)
+- [Flutter Lints](https://pub.dev/packages/flutter_lints)
