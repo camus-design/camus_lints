@@ -1,7 +1,7 @@
 # Camus lint rules
 
 This repository contains a set of lint rules for [Flutter] apps, packages,
-and plugins to encourage good coding practices..
+and plugins to encourage good coding practices.
 
 ## Usage
 
