@@ -1,7 +1,11 @@
 # Camus lint rules
 
+[![pub package](https://img.shields.io/pub/v/camus_lints.svg)](https://pub.dev/packages/camus_lints)
+
 This repository contains a set of lint rules for [Flutter] apps, packages,
 and plugins to encourage good coding practices.
+
+This package is built on top of Flutter's lints from package:flutter_lints.
 
 ## Usage
 
