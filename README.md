@@ -1,4 +1,4 @@
-# Camus lint rules
+# Camus Lint Rules
 
 [![pub package](https://img.shields.io/pub/v/camus_lints.svg)](https://pub.dev/packages/camus_lints)
 
