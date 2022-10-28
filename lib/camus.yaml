@@ -47,7 +47,6 @@ linter:
     - avoid_positional_boolean_parameters # avoid
     - avoid_equals_and_hash_code_on_mutable_classes # avoid
     - sort_constructors_first
-    - sort_pub_dependencies
     - sort_unnamed_constructors_first
     - throw_in_finally
     - always_declare_return_types
