@@ -47,7 +47,6 @@ linter:
     - avoid_positional_boolean_parameters # avoid
     - avoid_equals_and_hash_code_on_mutable_classes # avoid
     - sort_constructors_first
-    - sort_pub_dependencies
     - sort_unnamed_constructors_first
     - throw_in_finally
     - always_declare_return_types
@@ -63,5 +62,4 @@ linter:
     - test_types_in_equals
     - avoid_field_initializers_in_const_classes
     - no_adjacent_strings_in_list
-    - prefer_trailing_commas:
-       - break-on: 2
+    - require_trailing_commas
