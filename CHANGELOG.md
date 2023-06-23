@@ -1,3 +1,7 @@
+# 1.1.2
+
+- Update lints dependencies & Dart SDK
+
 # 1.1.1
 
 - Add flutter_lints & lints

@@ -3,10 +3,10 @@ description: A set of lints for Flutter apps, packages, and plugins to encourage
 repository: https://github.com/camus-design/camus_lints
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-version: 1.1.1
+version: 1.1.2
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=2.17.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -14,4 +14,4 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
-dependencies: { lints: ^2.0.1}
+dependencies: { lints: ^2.1.1}
